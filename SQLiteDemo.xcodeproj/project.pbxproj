@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		684AF11117A7B82E0019263B /* UpdateARow_iPhone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684AF11017A7B82E0019263B /* UpdateARow_iPhone4.xib */; };
+		684AF11417A7CC140019263B /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 684AF11317A7CC130019263B /* HeaderView.m */; };
+		684AF11617A7CCBE0019263B /* HeaderView_iphone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684AF11517A7CCBE0019263B /* HeaderView_iphone4.xib */; };
+		684AF11817A7CFA50019263B /* DeleteARowVC_iPhone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684AF11717A7CFA50019263B /* DeleteARowVC_iPhone4.xib */; };
+		684BF3D217A68C5E008DF1F7 /* EditARecord_iphone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684BF3D117A68C5E008DF1F7 /* EditARecord_iphone4.xib */; };
+		684BF3D617A69042008DF1F7 /* EditARecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BF3D417A69041008DF1F7 /* EditARecordVC.m */; };
+		685D010417A39F3C002511E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D010317A39F3C002511E7 /* UIKit.framework */; };
+		685D010617A39F3C002511E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D010517A39F3C002511E7 /* Foundation.framework */; };
+		685D010817A39F3C002511E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D010717A39F3C002511E7 /* CoreGraphics.framework */; };
+		685D010E17A39F3C002511E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 685D010C17A39F3C002511E7 /* InfoPlist.strings */; };
+		685D011017A39F3C002511E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D010F17A39F3C002511E7 /* main.m */; };
+		685D011417A39F3C002511E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D011317A39F3C002511E7 /* AppDelegate.m */; };
+		685D011617A39F3C002511E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 685D011517A39F3C002511E7 /* Default.png */; };
+		685D011817A39F3C002511E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685D011717A39F3C002511E7 /* Default@2x.png */; };
+		685D011A17A39F3C002511E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685D011917A39F3C002511E7 /* Default-568h@2x.png */; };
+		685D011D17A39F3C002511E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D011C17A39F3C002511E7 /* ViewController.m */; };
+		685D012017A39F3C002511E7 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D011E17A39F3C002511E7 /* ViewController_iPhone.xib */; };
+		685D012317A39F3C002511E7 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D012117A39F3C002511E7 /* ViewController_iPad.xib */; };
+		685D013E17A3ABC1002511E7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D013D17A3ABC1002511E7 /* libsqlite3.dylib */; };
+		685D014317A3AF34002511E7 /* InsertARowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D014117A3AF34002511E7 /* InsertARowVC.m */; };
+		685D014417A3AF34002511E7 /* InsertARowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D014217A3AF34002511E7 /* InsertARowVC.xib */; };
+		685D014817A3AF46002511E7 /* DeleteARowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D014617A3AF46002511E7 /* DeleteARowVC.m */; };
+		685D014917A3AF46002511E7 /* DeleteARowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D014717A3AF46002511E7 /* DeleteARowVC.xib */; };
+		685D014D17A3AF57002511E7 /* UpdateARowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D014B17A3AF57002511E7 /* UpdateARowVC.m */; };
+		685D014E17A3AF57002511E7 /* UpdateARowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D014C17A3AF57002511E7 /* UpdateARowVC.xib */; };
+		685D015A17A3B4FD002511E7 /* InsertARowVC_iPhone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D015917A3B4FD002511E7 /* InsertARowVC_iPhone4.xib */; };
+		685D015C17A3B9CB002511E7 /* InsertARowVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D015B17A3B9CB002511E7 /* InsertARowVC_iPad.xib */; };
+		685D018617A3C6D7002511E7 /* ShowAllRecordsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D018417A3C6D6002511E7 /* ShowAllRecordsVC.m */; };
+		685D018717A3C6D7002511E7 /* ShowAllRecordsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D018517A3C6D7002511E7 /* ShowAllRecordsVC.xib */; };
+		685D01AA17A3D1D8002511E7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D01A517A3D1D8002511E7 /* FMDatabase.m */; };
+		685D01AB17A3D1D8002511E7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D01A717A3D1D8002511E7 /* FMDatabaseAdditions.m */; };
+		685D01AC17A3D1D8002511E7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D01A917A3D1D8002511E7 /* FMResultSet.m */; };
+		685D01AE17A3E85B002511E7 /* CustomCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D01AD17A3E85B002511E7 /* CustomCell_iPhone.xib */; };
+		685D01B117A3EB96002511E7 /* StudentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D01B017A3EB96002511E7 /* StudentObject.m */; };
+		685D01B517A3F27F002511E7 /* ShowAllRecordsVC_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D01B417A3F27F002511E7 /* ShowAllRecordsVC_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		684AF11017A7B82E0019263B /* UpdateARow_iPhone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateARow_iPhone4.xib; sourceTree = "<group>"; };
+		684AF11217A7CC130019263B /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		684AF11317A7CC130019263B /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		684AF11517A7CCBE0019263B /* HeaderView_iphone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView_iphone4.xib; sourceTree = "<group>"; };
+		684AF11717A7CFA50019263B /* DeleteARowVC_iPhone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteARowVC_iPhone4.xib; sourceTree = "<group>"; };
+		684BF3D117A68C5E008DF1F7 /* EditARecord_iphone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditARecord_iphone4.xib; sourceTree = "<group>"; };
+		684BF3D317A69041008DF1F7 /* EditARecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditARecordVC.h; sourceTree = "<group>"; };
+		684BF3D417A69041008DF1F7 /* EditARecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditARecordVC.m; sourceTree = "<group>"; };
+		685D010017A39F3C002511E7 /* SQLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685D010317A39F3C002511E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		685D010517A39F3C002511E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		685D010717A39F3C002511E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		685D010B17A39F3C002511E7 /* SQLiteDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteDemo-Info.plist"; sourceTree = "<group>"; };
+		685D010D17A39F3C002511E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		685D010F17A39F3C002511E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685D011117A39F3C002511E7 /* SQLiteDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteDemo-Prefix.pch"; sourceTree = "<group>"; };
+		685D011217A39F3C002511E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		685D011317A39F3C002511E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685D011517A39F3C002511E7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		685D011717A39F3C002511E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		685D011917A39F3C002511E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		685D011B17A39F3C002511E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		685D011C17A39F3C002511E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		685D011F17A39F3C002511E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		685D012217A39F3C002511E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		685D013D17A3ABC1002511E7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		685D014017A3AF34002511E7 /* InsertARowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertARowVC.h; sourceTree = "<group>"; };
+		685D014117A3AF34002511E7 /* InsertARowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertARowVC.m; sourceTree = "<group>"; };
+		685D014217A3AF34002511E7 /* InsertARowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsertARowVC.xib; sourceTree = "<group>"; };
+		685D014517A3AF46002511E7 /* DeleteARowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteARowVC.h; sourceTree = "<group>"; };
+		685D014617A3AF46002511E7 /* DeleteARowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteARowVC.m; sourceTree = "<group>"; };
+		685D014717A3AF46002511E7 /* DeleteARowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteARowVC.xib; sourceTree = "<group>"; };
+		685D014A17A3AF57002511E7 /* UpdateARowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateARowVC.h; sourceTree = "<group>"; };
+		685D014B17A3AF57002511E7 /* UpdateARowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateARowVC.m; sourceTree = "<group>"; };
+		685D014C17A3AF57002511E7 /* UpdateARowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateARowVC.xib; sourceTree = "<group>"; };
+		685D015817A3B3B1002511E7 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		685D015917A3B4FD002511E7 /* InsertARowVC_iPhone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsertARowVC_iPhone4.xib; sourceTree = "<group>"; };
+		685D015B17A3B9CB002511E7 /* InsertARowVC_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsertARowVC_iPad.xib; sourceTree = "<group>"; };
+		685D018317A3C6D6002511E7 /* ShowAllRecordsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAllRecordsVC.h; sourceTree = "<group>"; };
+		685D018417A3C6D6002511E7 /* ShowAllRecordsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAllRecordsVC.m; sourceTree = "<group>"; };
+		685D018517A3C6D7002511E7 /* ShowAllRecordsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowAllRecordsVC.xib; sourceTree = "<group>"; };
+		685D01A417A3D1D8002511E7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		685D01A517A3D1D8002511E7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		685D01A617A3D1D8002511E7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		685D01A717A3D1D8002511E7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		685D01A817A3D1D8002511E7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		685D01A917A3D1D8002511E7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		685D01AD17A3E85B002511E7 /* CustomCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell_iPhone.xib; sourceTree = "<group>"; };
+		685D01AF17A3EB96002511E7 /* StudentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentObject.h; sourceTree = "<group>"; };
+		685D01B017A3EB96002511E7 /* StudentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentObject.m; sourceTree = "<group>"; };
+		685D01B417A3F27F002511E7 /* ShowAllRecordsVC_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowAllRecordsVC_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685D00FD17A39F3C002511E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685D010617A39F3C002511E7 /* Foundation.framework in Frameworks */,
+				685D013E17A3ABC1002511E7 /* libsqlite3.dylib in Frameworks */,
+				685D010417A39F3C002511E7 /* UIKit.framework in Frameworks */,
+				685D010817A39F3C002511E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685D00F717A39F3C002511E7 = {
+			isa = PBXGroup;
+			children = (
+				685D010917A39F3C002511E7 /* SQLiteDemo */,
+				685D010217A39F3C002511E7 /* Frameworks */,
+				685D010117A39F3C002511E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685D010117A39F3C002511E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685D010017A39F3C002511E7 /* SQLiteDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685D010217A39F3C002511E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				685D013D17A3ABC1002511E7 /* libsqlite3.dylib */,
+				685D010317A39F3C002511E7 /* UIKit.framework */,
+				685D010517A39F3C002511E7 /* Foundation.framework */,
+				685D010717A39F3C002511E7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		685D010917A39F3C002511E7 /* SQLiteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				685D01A317A3D1C6002511E7 /* SQLiteLibFMDB */,
+				685D015717A3B3A7002511E7 /* UtilsAndDefines */,
+				685D013F17A3ACFD002511E7 /* Resources */,
+				685D011217A39F3C002511E7 /* AppDelegate.h */,
+				685D011317A39F3C002511E7 /* AppDelegate.m */,
+				685D011B17A39F3C002511E7 /* ViewController.h */,
+				685D011C17A39F3C002511E7 /* ViewController.m */,
+				685D014017A3AF34002511E7 /* InsertARowVC.h */,
+				685D014117A3AF34002511E7 /* InsertARowVC.m */,
+				685D014517A3AF46002511E7 /* DeleteARowVC.h */,
+				685D014617A3AF46002511E7 /* DeleteARowVC.m */,
+				685D014A17A3AF57002511E7 /* UpdateARowVC.h */,
+				685D014B17A3AF57002511E7 /* UpdateARowVC.m */,
+				685D018317A3C6D6002511E7 /* ShowAllRecordsVC.h */,
+				685D018417A3C6D6002511E7 /* ShowAllRecordsVC.m */,
+				685D01AF17A3EB96002511E7 /* StudentObject.h */,
+				685D01B017A3EB96002511E7 /* StudentObject.m */,
+				684BF3D317A69041008DF1F7 /* EditARecordVC.h */,
+				684BF3D417A69041008DF1F7 /* EditARecordVC.m */,
+				684AF11217A7CC130019263B /* HeaderView.h */,
+				684AF11317A7CC130019263B /* HeaderView.m */,
+				685D010A17A39F3C002511E7 /* Supporting Files */,
+			);
+			path = SQLiteDemo;
+			sourceTree = "<group>";
+		};
+		685D010A17A39F3C002511E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				685D010B17A39F3C002511E7 /* SQLiteDemo-Info.plist */,
+				685D010C17A39F3C002511E7 /* InfoPlist.strings */,
+				685D010F17A39F3C002511E7 /* main.m */,
+				685D011117A39F3C002511E7 /* SQLiteDemo-Prefix.pch */,
+				685D011517A39F3C002511E7 /* Default.png */,
+				685D011717A39F3C002511E7 /* Default@2x.png */,
+				685D011917A39F3C002511E7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		685D013F17A3ACFD002511E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				685D018517A3C6D7002511E7 /* ShowAllRecordsVC.xib */,
+				685D015917A3B4FD002511E7 /* InsertARowVC_iPhone4.xib */,
+				685D015B17A3B9CB002511E7 /* InsertARowVC_iPad.xib */,
+				685D011E17A39F3C002511E7 /* ViewController_iPhone.xib */,
+				685D012117A39F3C002511E7 /* ViewController_iPad.xib */,
+				685D014217A3AF34002511E7 /* InsertARowVC.xib */,
+				685D014717A3AF46002511E7 /* DeleteARowVC.xib */,
+				685D014C17A3AF57002511E7 /* UpdateARowVC.xib */,
+				685D01AD17A3E85B002511E7 /* CustomCell_iPhone.xib */,
+				685D01B417A3F27F002511E7 /* ShowAllRecordsVC_iPhone.xib */,
+				684BF3D117A68C5E008DF1F7 /* EditARecord_iphone4.xib */,
+				684AF11017A7B82E0019263B /* UpdateARow_iPhone4.xib */,
+				684AF11517A7CCBE0019263B /* HeaderView_iphone4.xib */,
+				684AF11717A7CFA50019263B /* DeleteARowVC_iPhone4.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		685D015717A3B3A7002511E7 /* UtilsAndDefines */ = {
+			isa = PBXGroup;
+			children = (
+				685D015817A3B3B1002511E7 /* Defines.h */,
+			);
+			path = UtilsAndDefines;
+			sourceTree = "<group>";
+		};
+		685D01A317A3D1C6002511E7 /* SQLiteLibFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				685D01A417A3D1D8002511E7 /* FMDatabase.h */,
+				685D01A517A3D1D8002511E7 /* FMDatabase.m */,
+				685D01A617A3D1D8002511E7 /* FMDatabaseAdditions.h */,
+				685D01A717A3D1D8002511E7 /* FMDatabaseAdditions.m */,
+				685D01A817A3D1D8002511E7 /* FMResultSet.h */,
+				685D01A917A3D1D8002511E7 /* FMResultSet.m */,
+			);
+			name = SQLiteLibFMDB;
+			path = UtilsAndDefines/SQLiteLibFMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685D00FF17A39F3C002511E7 /* SQLiteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685D012617A39F3C002511E7 /* Build configuration list for PBXNativeTarget "SQLiteDemo" */;
+			buildPhases = (
+				685D00FC17A39F3C002511E7 /* Sources */,
+				685D00FD17A39F3C002511E7 /* Frameworks */,
+				685D00FE17A39F3C002511E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteDemo;
+			productName = SQLiteDemo;
+			productReference = 685D010017A39F3C002511E7 /* SQLiteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685D00F817A39F3C002511E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sumit Sharma";
+			};
+			buildConfigurationList = 685D00FB17A39F3C002511E7 /* Build configuration list for PBXProject "SQLiteDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 685D00F717A39F3C002511E7;
+			productRefGroup = 685D010117A39F3C002511E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685D00FF17A39F3C002511E7 /* SQLiteDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685D00FE17A39F3C002511E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685D010E17A39F3C002511E7 /* InfoPlist.strings in Resources */,
+				685D011617A39F3C002511E7 /* Default.png in Resources */,
+				685D011817A39F3C002511E7 /* Default@2x.png in Resources */,
+				685D011A17A39F3C002511E7 /* Default-568h@2x.png in Resources */,
+				685D012017A39F3C002511E7 /* ViewController_iPhone.xib in Resources */,
+				685D012317A39F3C002511E7 /* ViewController_iPad.xib in Resources */,
+				685D014417A3AF34002511E7 /* InsertARowVC.xib in Resources */,
+				685D014917A3AF46002511E7 /* DeleteARowVC.xib in Resources */,
+				685D014E17A3AF57002511E7 /* UpdateARowVC.xib in Resources */,
+				685D015A17A3B4FD002511E7 /* InsertARowVC_iPhone4.xib in Resources */,
+				685D015C17A3B9CB002511E7 /* InsertARowVC_iPad.xib in Resources */,
+				685D018717A3C6D7002511E7 /* ShowAllRecordsVC.xib in Resources */,
+				685D01AE17A3E85B002511E7 /* CustomCell_iPhone.xib in Resources */,
+				685D01B517A3F27F002511E7 /* ShowAllRecordsVC_iPhone.xib in Resources */,
+				684BF3D217A68C5E008DF1F7 /* EditARecord_iphone4.xib in Resources */,
+				684AF11117A7B82E0019263B /* UpdateARow_iPhone4.xib in Resources */,
+				684AF11617A7CCBE0019263B /* HeaderView_iphone4.xib in Resources */,
+				684AF11817A7CFA50019263B /* DeleteARowVC_iPhone4.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685D00FC17A39F3C002511E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685D011017A39F3C002511E7 /* main.m in Sources */,
+				685D011417A39F3C002511E7 /* AppDelegate.m in Sources */,
+				685D011D17A39F3C002511E7 /* ViewController.m in Sources */,
+				685D014317A3AF34002511E7 /* InsertARowVC.m in Sources */,
+				685D014817A3AF46002511E7 /* DeleteARowVC.m in Sources */,
+				685D014D17A3AF57002511E7 /* UpdateARowVC.m in Sources */,
+				685D018617A3C6D7002511E7 /* ShowAllRecordsVC.m in Sources */,
+				685D01AA17A3D1D8002511E7 /* FMDatabase.m in Sources */,
+				685D01AB17A3D1D8002511E7 /* FMDatabaseAdditions.m in Sources */,
+				685D01AC17A3D1D8002511E7 /* FMResultSet.m in Sources */,
+				685D01B117A3EB96002511E7 /* StudentObject.m in Sources */,
+				684BF3D617A69042008DF1F7 /* EditARecordVC.m in Sources */,
+				684AF11417A7CC140019263B /* HeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		685D010C17A39F3C002511E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685D010D17A39F3C002511E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		685D011E17A39F3C002511E7 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685D011F17A39F3C002511E7 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		685D012117A39F3C002511E7 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685D012217A39F3C002511E7 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685D012417A39F3C002511E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685D012517A39F3C002511E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685D012717A39F3C002511E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteDemo/SQLiteDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteDemo/SQLiteDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		685D012817A39F3C002511E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteDemo/SQLiteDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteDemo/SQLiteDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685D00FB17A39F3C002511E7 /* Build configuration list for PBXProject "SQLiteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685D012417A39F3C002511E7 /* Debug */,
+				685D012517A39F3C002511E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685D012617A39F3C002511E7 /* Build configuration list for PBXNativeTarget "SQLiteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685D012717A39F3C002511E7 /* Debug */,
+				685D012817A39F3C002511E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685D00F817A39F3C002511E7 /* Project object */;
+}
